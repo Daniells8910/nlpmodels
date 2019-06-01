@@ -1,0 +1,6 @@
+model:nlp
+  # 注: 所有路径都需以项目为根目录写起.
+
+  # 路径相关参数
+data_params:
+  path_common:./dataset/data/
