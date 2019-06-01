@@ -2,7 +2,8 @@
 #### configs：yaml格式的配置文件，所有训练参数均存放进该文件<br>
 #### datasets:常用的数据集<br>
 * dataset.py：生成训练数据集、测试数据集、词汇表；支持读取预训练向量文件<br>
-#### models：模型实例化，每个模型文件包括ModelParam和ModelTrain两个主要类，ModelTrain类中可体现单模型以及多模型的拼装操作<br>
+#### models：模型实例化<br>
+* 每个模型文件包括ModelParam和ModelTrain两个主要类，ModelTrain类中可体现单模型以及多模型的拼装操作<br>
 #### tasks：各种NLP任务<br>
 * classification：分类任务，支持机器学习模型和深度学习模型<br>
 * ner：命名实体识别任务<br>
